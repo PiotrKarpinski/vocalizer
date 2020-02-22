@@ -1,0 +1,37 @@
+header {
+  	background: linear-gradient(-45deg, #e66465, #9198e5,#3339FF,#CF0000);
+  	width: 100vw;
+  	height: 100vh;
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	position: relative;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	border-radius: 16px;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	width: 70vw;
+	height: 40%;
+	background-color: white;
+	-webkit-box-shadow: -9px 21px 37px -4px rgba(0,0,0,0.64);
+	-moz-box-shadow: -9px 21px 37px -4px rgba(0,0,0,0.64);
+	box-shadow: -9px 21px 37px -4px rgba(0,0,0,0.64);
+}
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
