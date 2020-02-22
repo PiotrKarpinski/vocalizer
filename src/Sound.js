@@ -1,20 +1,17 @@
 import React from 'react';
 import './Sound.css';
+import {letters} from './data/letters.json';
 
 class Sound extends React.Component {
 	state = {
 		play: false,
 	}
-	audio = new Audio("http://www.layzeebeats.vot.pl/static/media/sound/regret.mp3")
+
 	
-	componentDidMount() {
+	
 
-    this.audio.addEventListener('ended', () => this.setState({ play: false }));
-  }
+	
 
-  componentWillUnmount() {
-    this.audio.removeEventListener('ended', () => this.setState({ play: false }));  
-  }
 
 
   togglePlay = () => {
@@ -26,11 +23,40 @@ class Sound extends React.Component {
 
   }
 
+  playSentence = () => {
+
+	var audio = new Audio(),
+		    i = 0;
+		var playlist = new Array(letters);
+  	console.log(letters)
+  		
+		audio.addEventListener('ended', function () {
+		    i++
+		    console.log(letters[i])
+		    if (i<letters.length) {		    
+		    audio.src = letters[i].url;
+		    audio.play();}
+
+		}, true)
+		audio.volume = 0.3;
+		audio.loop = false;
+		audio.src = letters[0].url;
+		audio.play();
+		
+
+
+	}  	
+  
+
 
 	render() {
+
+
+
+
 	  return (
 	    <div className='sound'>
-	    	<button type='button' onClick={this.togglePlay} className='play'><i className='fa fa-volume-up'/></button>
+	    	<button type='button' onClick={this.playSentence} className='play'><i className='fa fa-volume-up'/></button>
 	    </div>
 	  );
 	}

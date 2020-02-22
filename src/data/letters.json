@@ -1,0 +1,49 @@
+{
+	"letters":
+	[
+	
+	{
+		"id": 1,
+		"letter":"r",
+		"url":"http://www.vocalizer.pgmportfolio.vot.pl/static/media/letters/p.wav"
+		
+	},
+	{
+		"id": 2,
+		"letter":"j",
+		"url":"http://www.vocalizer.pgmportfolio.vot.pl/static/media/letters/i.wav"
+		
+	},		
+	{
+		"id": 3,
+		"letter":"e",
+		"url":"http://www.vocalizer.pgmportfolio.vot.pl/static/media/letters/o.wav"
+		
+	},
+	{
+		"id": 4,
+		"letter":"s",
+		"url":"http://www.vocalizer.pgmportfolio.vot.pl/static/media/letters/t.wav"
+		
+	},
+	{
+		"id": 5,
+		"letter":"o",
+		"url":"http://www.vocalizer.pgmportfolio.vot.pl/static/media/letters/r.wav"
+		
+	},
+	{
+		"id": 6,
+		"letter":"o",
+		"url":"http://www.vocalizer.pgmportfolio.vot.pl/static/media/letters/e.wav"
+		
+	},
+	{
+		"id": 7,
+		"letter":"o",
+		"url":"http://www.vocalizer.pgmportfolio.vot.pl/static/media/letters/k.wav"
+		
+	}
+]
+}
+
