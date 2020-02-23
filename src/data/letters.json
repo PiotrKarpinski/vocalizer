@@ -4,46 +4,220 @@
 	
 	{
 		"id": 1,
-		"letter":"r",
-		"url":"http://www.vocalizer.pgmportfolio.vot.pl/static/media/letters/p.wav"
+		"letter":"a",
+		"url":"http://www.vocalizer.pgmportfolio.vot.pl/static/media/letters/a.wav"
 		
 	},
 	{
 		"id": 2,
-		"letter":"j",
-		"url":"http://www.vocalizer.pgmportfolio.vot.pl/static/media/letters/i.wav"
+		"letter":"ą",
+		"url":"http://www.vocalizer.pgmportfolio.vot.pl/static/media/letters/ou.wav"
 		
 	},		
 	{
 		"id": 3,
-		"letter":"e",
-		"url":"http://www.vocalizer.pgmportfolio.vot.pl/static/media/letters/o.wav"
+		"letter":"b",
+		"url":"http://www.vocalizer.pgmportfolio.vot.pl/static/media/letters/b.wav"
 		
 	},
 	{
 		"id": 4,
-		"letter":"s",
-		"url":"http://www.vocalizer.pgmportfolio.vot.pl/static/media/letters/t.wav"
+		"letter":"c",
+		"url":"http://www.vocalizer.pgmportfolio.vot.pl/static/media/letters/c.wav"
 		
 	},
 	{
 		"id": 5,
-		"letter":"o",
-		"url":"http://www.vocalizer.pgmportfolio.vot.pl/static/media/letters/r.wav"
+		"letter":"ć",
+		"url":"http://www.vocalizer.pgmportfolio.vot.pl/static/media/letters/ci.wav"
 		
 	},
 	{
 		"id": 6,
-		"letter":"o",
-		"url":"http://www.vocalizer.pgmportfolio.vot.pl/static/media/letters/e.wav"
+		"letter":"d",
+		"url":"http://wdw.vocalizer.pgmportfolio.vot.pl/static/media/letters/d.wav"
 		
 	},
 	{
 		"id": 7,
-		"letter":"o",
+		"letter":"e",
+		"url":"http://www.vocalizer.pgmportfolio.vot.pl/static/media/letters/e.wav"
+		
+	},
+
+	{
+		"id": 8,
+		"letter":"f",
+		"url":"http://www.vocalizer.pgmportfolio.vot.pl/static/media/letters/f.wav"
+		
+	},
+	{
+		"id": 9,
+		"letter":"g",
+		"url":"http://www.vocalizer.pgmportfolio.vot.pl/static/media/letters/g.wav"
+		
+	},
+	{
+		"id": 10,
+		"letter":"h",
+		"url":"http://www.vocalizer.pgmportfolio.vot.pl/static/media/letters/h.wav"
+		
+	},
+	{
+		"id": 11,
+		"letter":"i",
+		"url":"http://www.vocalizer.pgmportfolio.vot.pl/static/media/letters/i.wav"
+		
+	},
+	{
+		"id": 12,
+		"letter":"j",
+		"url":"http://www.vocalizer.pgmportfolio.vot.pl/static/media/letters/j.wav"
+		
+	},	
+	{
+		"id": 13,
+		"letter":"j",
+		"url":"http://www.vocalizer.pgmportfolio.vot.pl/static/media/letters/j.wav"
+		
+	},	
+	{
+		"id": 14,
+		"letter":"k",
 		"url":"http://www.vocalizer.pgmportfolio.vot.pl/static/media/letters/k.wav"
 		
+	},	
+
+	{
+		"id": 15,
+		"letter":"l",
+		"url":"http://www.vocalizer.pgmportfolio.vot.pl/static/media/letters/l.wav"
+		
+	},	
+	{
+		"id": 16,
+		"letter":"ł",
+		"url":"http://www.vocalizer.pgmportfolio.vot.pl/static/media/letters/uy.wav"
+		
+	},	
+	{
+		"id": 17,
+		"letter":"m",
+		"url":"http://www.vocalizer.pgmportfolio.vot.pl/static/media/letters/m.wav"
+		
+	},	
+	{
+		"id": 18,
+		"letter":"n",
+		"url":"http://www.vocalizer.pgmportfolio.vot.pl/static/media/letters/n.wav"
+		
+	},	
+	{
+		"id": 19,
+		"letter":"ń",
+		"url":"http://www.vocalizer.pgmportfolio.vot.pl/static/media/letters/ni.wav"
+		
+	},	
+	{
+		"id": 20,
+		"letter":"o",
+		"url":"http://www.vocalizer.pgmportfolio.vot.pl/static/media/letters/o.wav"
+		
+	},	
+	{
+		"id": 21,
+		"letter":"ó",
+		"url":"http://www.vocalizer.pgmportfolio.vot.pl/static/media/letters/u.wav"
+		
+	},	
+	{
+		"id": 22,
+		"letter":"p",
+		"url":"http://www.vocalizer.pgmportfolio.vot.pl/static/media/letters/p.wav"
+		
+	},	
+	{
+		"id": 23,
+		"letter":" ",
+		"url":"http://www.vocalizer.pgmportfolio.vot.pl/static/media/letters/q.wav"
+		
+	},
+	{
+		"id": 24,
+		"letter":"r",
+		"url":"http://www.vocalizer.pgmportfolio.vot.pl/static/media/letters/r.wav"
+		
+	},
+	{
+		"id": 25,
+		"letter":"s",
+		"url":"http://www.vocalizer.pgmportfolio.vot.pl/static/media/letters/s.wav"
+		
+	},
+	{
+		"id": 26,
+		"letter":"sz",
+		"url":"http://www.vocalizer.pgmportfolio.vot.pl/static/media/letters/sz.wav"
+		
+	},
+	{
+		"id": 27,
+		"letter":"ś",
+		"url":"http://www.vocalizer.pgmportfolio.vot.pl/static/media/letters/si.wav"
+		
+	},
+	{
+		"id": 28,
+		"letter":"t",
+		"url":"http://www.vocalizer.pgmportfolio.vot.pl/static/media/letters/t.wav"
+		
+	},
+	{
+		"id": 29,
+		"letter":"u",
+		"url":"http://www.vocalizer.pgmportfolio.vot.pl/static/media/letters/u.wav"
+		
+	},
+	{
+		"id": 30,
+		"letter":"w",
+		"url":"http://www.vocalizer.pgmportfolio.vot.pl/static/media/letters/w.wav"
+		
+	},
+	{
+		"id": 31,
+		"letter":"y",
+		"url":"http://www.vocalizer.pgmportfolio.vot.pl/static/media/letters/y.wav"
+		
+	},
+	{
+		"id": 32,
+		"letter":"z",
+		"url":"http://www.vocalizer.pgmportfolio.vot.pl/static/media/letters/z.wav"
+		
+	},
+	{
+		"id": 33,
+		"letter":"ź",
+		"url":"http://www.vocalizer.pgmportfolio.vot.pl/static/media/letters/zi.wav"
+		
+	},
+
+	{
+		"id": 34,
+		"letter":"ż",
+		"url":"http://www.vocalizer.pgmportfolio.vot.pl/static/media/letters/rz.wav"
+		
+	},	
+	{
+		"id": 35,
+		"letter":"cz",
+		"url":"http://www.vocalizer.pgmportfolio.vot.pl/static/media/letters/cz.wav"
+		
 	}
+
+
 ]
+
 }
 

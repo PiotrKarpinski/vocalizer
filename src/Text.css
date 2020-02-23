@@ -1,3 +1,16 @@
+.box {
+	display: flex;
+	justify-content: center;
+	border-radius: 16px;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	background-color: white;
+
+}
+
+
 .text {
 	margin: auto 0;
 }
