@@ -35,7 +35,7 @@
 	{
 		"id": 6,
 		"letter":"d",
-		"url":"http://wdw.vocalizer.pgmportfolio.vot.pl/static/media/letters/d.wav"
+		"url":"http://www.vocalizer.pgmportfolio.vot.pl/static/media/letters/d.wav"
 		
 	},
 	{
@@ -214,8 +214,13 @@
 		"letter":"cz",
 		"url":"http://www.vocalizer.pgmportfolio.vot.pl/static/media/letters/cz.wav"
 		
+	},
+	{
+		"id": 36,
+		"letter":"ę",
+		"url":"http://www.vocalizer.pgmportfolio.vot.pl/static/media/letters/eu.wav"
+		
 	}
-
 
 ]
 

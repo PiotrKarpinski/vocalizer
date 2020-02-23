@@ -12,7 +12,7 @@ class Text extends React.Component {
     constructor() {
         super();
         this.state = {
-          placeholder:'Type some sentence here',
+          placeholder:'Witaj świecie',
         };
 
 
@@ -30,7 +30,7 @@ class Text extends React.Component {
         return (
             <div className='box'>
             	<div className='text'>
-                <input onChange={this.handleChange} placeholder='Type some sentence here' />
+                <input onChange={this.handleChange} placeholder={this.state.placeholder} />
                 </div>
             	<Sound text={this.state.placeholder}/>     
             </div>
