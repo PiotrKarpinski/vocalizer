@@ -1,5 +1,6 @@
 .sound {
 	margin: auto 0;
+	
 }
 
 .play {
@@ -14,3 +15,12 @@
 	-webkit-border-radius: 0px 16px 16px 0px;
 	font-size: 48px;
 }
+
+@media(max-width: 767px) {
+
+	.play {
+	font-size: 24px;
+
+	}
+}
+

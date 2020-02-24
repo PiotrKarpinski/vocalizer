@@ -7,22 +7,7 @@ import {letters} from './data/letters.json';
 
 
 class Sound extends React.Component {
-	state = {
-		play: false,
-	}
 
-		
-
-
-
-  togglePlay = () => {
-
-    this.setState({ play: !this.state.play }, () => {
-      this.state.play ? this.audio.play() : this.audio.pause();
-    });
-
-
-  }
 
   handleClick = () => {
 
@@ -38,6 +23,13 @@ class Sound extends React.Component {
 
 	for(let i=0; i < textArr.length; i++) {
 		console.log(textArr[i],textArr[i+1])
+
+		switch(textArr[i] + textArr[i+1]+textArr[i+2]) {
+			case 'dzi':
+			textArr[i] = 'dź'
+			textArr.splice(i+1,2)
+			
+		}
 
 		switch(textArr[i] + textArr[i+1]) {
 			case 'si':
@@ -78,10 +70,16 @@ class Sound extends React.Component {
 			case 'ni':
 			console.log('test')
 			textArr[i] = 'ń'
-			textArr[i] = 'i'
+			textArr[i+1] = 'i'
 		
 			break;
+			case 'dź':
+			console.log('test')
+			textArr[i] = 'dź'
+			textArr.splice(i+1,1)
 
+		
+			break;
 
 		}
 		console.log(textArr)
@@ -120,7 +118,7 @@ class Sound extends React.Component {
 		    audio.play();}
 
 		}, true)
-		audio.defaultPlaybackRate = 2;
+		audio.defaultPlaybackRate = 0.85;
 		audio.volume = 0.3;
 		audio.loop = false;
 		audio.src = filteredArray[0];

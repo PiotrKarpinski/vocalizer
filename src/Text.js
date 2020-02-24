@@ -29,9 +29,7 @@ class Text extends React.Component {
 
         return (
             <div className='box'>
-            	<div className='text'>
                 <input onChange={this.handleChange} placeholder={this.state.placeholder} />
-                </div>
             	<Sound text={this.state.placeholder}/>     
             </div>
         );
