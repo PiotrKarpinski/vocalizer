@@ -13,16 +13,14 @@ class Sound extends React.Component {
 
 	if (this.props.text !== undefined) {
 	const textArr = Array.from(this.props.text.toLowerCase())
-	console.log(textArr)
 
-	console.log(letters)
 
 	let filteredArray=[]
 
 
 
 	for(let i=0; i < textArr.length; i++) {
-		console.log(textArr[i],textArr[i+1])
+
 
 		switch(textArr[i] + textArr[i+1]+textArr[i+2]) {
 			case 'dzi':
@@ -33,56 +31,44 @@ class Sound extends React.Component {
 
 		switch(textArr[i] + textArr[i+1]) {
 			case 'si':
-			console.log('test')
 			textArr[i] = 'ś'
 			textArr.splice(i+1,1)
 			break;
 			case 'ch':
-			console.log('test')
 			textArr[i] = 'h'
 			textArr.splice(i+1,1)
 			break;
 			case 'ci':
-			console.log('test')
 			textArr[i] = 'ć'
 			textArr.splice(i+1,1)
 			break;
 			case 'sz':
-			console.log('test')
 			textArr[i] = 'sz'
 			textArr.splice(i+1,1)
 			break;
 			case 'cz':
-			console.log('cz')
 			textArr[i] = 'cz'
 			textArr.splice(i+1,1)
 			break;
 			case 'rz':
-			console.log('test')
 			textArr[i] = 'ż'
 			textArr.splice(i+1,1)
 			break;
 			case 'zi':
-			console.log('test')
 			textArr[i] = 'ź'
 			textArr.splice(i+1,1)
 			break;
 			case 'ni':
-			console.log('test')
 			textArr[i] = 'ń'
 			textArr[i+1] = 'i'
 		
 			break;
 			case 'dź':
-			console.log('test')
 			textArr[i] = 'dź'
 			textArr.splice(i+1,1)
-
-		
-			break;
+			break;	
 
 		}
-		console.log(textArr)
 
 		for(let obj of letters) {
 				if (textArr[i] === obj.letter) {
@@ -100,8 +86,9 @@ class Sound extends React.Component {
 	});
 
 	
-	console.log(filteredArray)
+	if (filteredArray.length > 0) {
 	this.playSentence(filteredArray)
+	} else { alert('Wpisano nieodpowiedni znak')}
   }
 }  
 
@@ -109,7 +96,6 @@ class Sound extends React.Component {
 
 	var audio = new Audio(),
 		    i = 0;
-		var playlist = new Array(filteredArray);
   		
 		audio.addEventListener('ended', function () {
 		    i++
